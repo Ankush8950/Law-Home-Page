@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: auto;
+  height: auto;
+
+}
+
+.container::before {
+  content: "";
+  background-image: url(../assets/bg.jpg);
+  background-position: bottom 40%;
+  /* background-repeat: no-repeat; */
+  background-size: 100% 140%;
+  position: absolute;
+  top: 20vh;
+  z-index: -1;
+  height: 75vh;
+  width: 100%;
+}
+.nav{
+  width: auto;
+  height: 70px;
+  background-color: rgb(44, 44, 20);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+
+.logo > img{
+  width: 110px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.menu > .btn{
+  padding: 5px 10px 5px 10px;
+  color: rgb(194, 194, 63);
+  background-color: rgb(60, 60, 41);
+  border: 1px solid rgb(173, 173, 6);
+  border-radius: 5px;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.list > .list-item{
+  margin: 20px;
+  color: rgb(192, 187, 187);
+  font-size: 12px;
+  font-weight: 100;
+}
+.list > .list-item:nth-child(1){
+    font-weight: 800;
+    color: white;
+}
+
+.intro{
+  width: auto;
+  height: 170px;
+  background-color: rgb(44, 44, 20);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px  100px 30px 100px;
+}
+
+.intro > .heading{
+  font-size: 50px;
+  font-weight: 500;
+  margin-right: 50px;
+  color: white;
+  line-height: 60px;
+}
+
+.para{
+  margin-left: 150px;
+  font-weight: 300;
+  font-size: 17px;
+  word-spacing: 1px;
+  color: rgb(180, 177, 177);
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(44, 44, 20);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer > .left-box{
+  width: 50px;
+  height: 100%;
+  background-color: rgb(53, 53, 31);
+  display: flex;
+align-items: center;
+justify-content: center;
+color: yellow;
+}
+
+.footer > .left-box > .left{
+  border: 1px solid yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > .right-box{
+   width: 50px;
+  height: 100%;
+  background-color: rgb(180, 180, 62);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > .right-box > .right{
+  border: 1px solid rgb(248, 248, 246);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
