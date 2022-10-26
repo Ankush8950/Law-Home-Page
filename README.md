@@ -7,6 +7,6 @@
 ---
 ## 🚀  Projact Live Link <br>
 ---
-This projact is been hosted on netlify. [Live Projact Link](https://candid-bubblegum-1a4e2f.netlify.app/)
+This projact is been hosted on netlify. [Live Projact Link](https://clinquant-blancmange-e8f2e3.netlify.app)
 
 ![LOW HOME PAGE](./Home.png)
